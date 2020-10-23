@@ -52,49 +52,11 @@ To run the tests, run
 
     mvn test
 
-Work through each test 1 by 1 until you have them all passing. Initially, you'll have a lot of failing tests and a lot of output on the console. To focus on a single test, add `.only` to the test you are interested in:
-
-```Java
-describe("singles", () => {
-    test("returns the sum of single values only", () => {
-        expect(singles([4,5,7,5,4,8])).toBe(15);
-        expect(singles([9, 10, 19, 13, 19, 13])).toBe([19]);
-        expect(singles([16, 0, 11, 4, 8, 16, 0, 11])).toBe([12]);
-        expect(singles([5, 17, 18, 11, 13, 18, 11, 13])).toBe([22]);
-        expect(singles([5, 10, 19, 13, 10, 13])).toBe([24]);
-    });
-
-    test.only("returns 0 if no singles are provided", () => {
-        expect(capitalize([6, 6, 7, 8, 7, 8])).toBe(0);
-    });
-});
-```
-
-Don't forget to remove it afterwards so you can run all your tests again.
-
-You can also ignore tests momentarily by adding an `x` at the front:
-
-```Java
-xdescribe("singles", () => {
-    test("returns the sum of single values only", () => {
-        expect(singles([4, 5, 7, 5, 4, 8])).toBe(15);
-        expect(singles([9, 10, 19, 13, 19, 13])).toBe([19]);
-        expect(singles([16, 0, 11, 4, 8, 16, 0, 11])).toBe([12]);
-        expect(singles([5, 17, 18, 11, 13, 18, 11, 13])).toBe([22]);
-        expect(singles([5, 10, 19, 13, 10, 13])).toBe([24]);
-    });
-
-    test("returns 0 if no singles are provided", () => {
-        expect(capitalize([6, 6, 8, 8])).toBe(0);
-    });
-});
-```
-
-To run ONE test file at a time you can enter into the terminal npm test followed by the file extension:
-
-    npm test exercise004.test.js  
+Work through each test 1 by 1 until you have them all passing. Initially, you'll have a lot of failing tests and a lot of output on the console. To focus on a single test, you can enter into the terminal mvn test -Dtest= followed by the class name:
+    
+    mvn test -Dtest=Exercise001
 
 
 # The tasks
 
-You can see the first task in [exercise001.js](./tasks/exercise001.js)
+You can see the first task in [exercise001.js](./tasks/exercise001)
