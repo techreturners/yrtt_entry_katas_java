@@ -1,7 +1,5 @@
 package com.techreturners.exercise003;
 
-import java.util.List;
-
 public class Exercise003 {
 
     // Scenario
@@ -28,7 +26,7 @@ public class Exercise003 {
     // Explanation:
     // The first element 80 is the total weight of team 1, and the second element 0 is the total weight of team 2.
 
-    public int[] rowWeights (final int[] weights) {
+    public static int[] rowWeights(final int[] weights) {
         // Your code here!
         return new int[]{0, 0};
     }

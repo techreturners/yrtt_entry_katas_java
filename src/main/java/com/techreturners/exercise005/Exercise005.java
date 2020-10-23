@@ -1,7 +1,5 @@
 package com.techreturners.exercise005;
 
-import java.util.List;
-
 public class Exercise005 {
 
     // Introduction

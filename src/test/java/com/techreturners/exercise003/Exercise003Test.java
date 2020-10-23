@@ -1,8 +1,8 @@
 package com.techreturners.exercise003;
 
-import static org.junit.Assert.assertArrayEquals;
-
 import org.junit.Test;
+
+import static org.junit.Assert.assertArrayEquals;
 
 public class Exercise003Test {
 

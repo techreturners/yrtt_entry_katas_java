@@ -1,7 +1,5 @@
 package com.techreturners.exercise004;
 
-import java.util.List;
-
 public class Exercise004 {
 
      // Move the first letter of each word to the end of it, then add "ay" to the end of the word. 

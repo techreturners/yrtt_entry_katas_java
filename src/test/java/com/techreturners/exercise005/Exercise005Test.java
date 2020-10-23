@@ -1,11 +1,10 @@
-package com.techreturners;
-
-import static org.junit.Assert.assertEquals;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.techreturners.exercise005;
 
 import org.junit.Test;
+
+import java.util.Arrays;
+
+import static org.junit.Assert.assertArrayEquals;
 
 public class Exercise005Test {
         @Test
