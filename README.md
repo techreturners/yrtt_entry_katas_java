@@ -59,4 +59,4 @@ Work through each test 1 by 1 until you have them all passing. Initially, you'll
 
 # The tasks
 
-You can see the first task in [exercise001.java](./src/main/java/com/techreturners/exercise001)
+You can see the first task in [exercise001.java](./src/main/java/com/techreturners/exercise001/Exercise001.java)
