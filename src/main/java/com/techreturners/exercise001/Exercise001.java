@@ -12,7 +12,7 @@ public class Exercise001 {
 
     // Good luck!
 
-    public static int singles(int [] arr){
+    public int singles(int [] arr){
         // Add your code here!
         return 0;
     }
