@@ -1,6 +1,4 @@
-package java.com.techreturners.exercise003;
-
-import java.util.List;
+package com.techreturners.exercise003;
 
 public class Exercise003 {
 
