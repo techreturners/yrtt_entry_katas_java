@@ -40,7 +40,11 @@ Once you've got Java and Maven installed you can make a start!
 
 ### Completing the tasks
 
-When first cloning this repository, install its dependencies:
+Firstly you will need to [fork this GitHub repository](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo) to your own GitHub profile and then clone your forked repository down to your laptop.
+
+NOTE: You do NOT have to submit Pull Requests to us.
+
+Once you have cloned your repository you can proceed to install the dependencies by navigating into the directory (you have cloned) and running:
 
     mvn clean install
 
