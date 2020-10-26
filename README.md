@@ -16,9 +16,9 @@ Remember to break down problems to help you solve them and that Google is your f
 
 ### Instructions
 
-To complete these challenges you will need to have Java and Maven installed on your computer.
+To complete these exercises you will need to have Java and Maven installed on your computer.
 
-Follow this link and to download and install the Java SE Development Kit for your laptop:
+Follow this link to download and install the Java SE Development Kit for your laptop:
 
 https://www.oracle.com/uk/java/technologies/javase/javase-jdk8-downloads.html
 
@@ -26,9 +26,9 @@ https://www.oracle.com/uk/java/technologies/javase/javase-jdk8-downloads.html
 
 You'll also need Maven installed for managing dependencies.
 
-Maven is used to manage the dependencies (similar to NPM in the Javascript world or PIP in a Python world)
+Maven is used to manage the dependencies (similar to NPM in the Javascript world or PIP in a Python world).
 
-Maven can be download and install by following the different link here:
+Maven can be downloaded and installed by following the link here:
 
 https://maven.apache.org/index.html
 
