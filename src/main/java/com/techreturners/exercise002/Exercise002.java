@@ -7,6 +7,15 @@ public class Exercise002 {
 
     public int past(int h, int m, int s) {
         // Your code here!
-        return 0;
+    	int  midnight, current;
+    	
+    	midnight = 23*3600 + 59*60 + 59;
+    	
+    	current = Math.abs(h)*3600 + Math.abs(m)*60 + Math.abs(s);
+    	
+    	if (current > midnight)
+    		current %= midnight;
+    	
+        return current * 1000;
     }
 }
