@@ -12,6 +12,27 @@ public class Exercise001 {
 
     public int singles(int [] arr){
         // Add your code here!
-        return 0;
+				int[] err=arr;
+        int ans=0;
+
+        for (int i=0; i<arr.length ; i++) {
+
+            boolean duplicate = false;
+
+            for (int j=0; j<err.length ; j++) {
+
+                if ( i!=j && arr[i]==err[j]){
+
+                    duplicate = true;
+                    break;
+
+                }
+							
+            }
+
+            if (!duplicate)
+                    ans += arr[i];
+        }
+        return ans;
     }
 }
