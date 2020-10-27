@@ -9,11 +9,11 @@ public class Exercise002 {
         // Your code here!
     	int  midnight, current;
     	
-    	midnight = 23*3600 + 59*60 + 59;
+    	midnight = 24*3600;
     	
     	current = Math.abs(h)*3600 + Math.abs(m)*60 + Math.abs(s);
     	
-    	if (current > midnight)
+    	if (current >= midnight)
     		current %= midnight;
     	
         return current * 1000;
