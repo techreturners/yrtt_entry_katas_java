@@ -12,7 +12,7 @@ public class Exercise001 {
 
     public int singles(int [] arr){
         // Add your code here!
-				int[] err=arr;
+	int[] err=arr;
         int ans=0;
 
         for (int i=0; i<arr.length ; i++) {
