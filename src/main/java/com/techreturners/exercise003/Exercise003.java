@@ -38,7 +38,7 @@ public class Exercise003 {
     			ans[1] += weights[i];
     		
     	}
-    	
+        
         return ans;
     }
 
