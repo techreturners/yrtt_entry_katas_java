@@ -1,5 +1,7 @@
 package com.techreturners.exercise005;
 
+import java.util.ArrayList;
+
 public class Exercise005 {
 
     // Introduction
@@ -27,8 +29,8 @@ public class Exercise005 {
 
     public String[] mexicanWave(String str) {
         // Your code here!
-    	ArrayList<String> ansList = new ArrayList<String>();
     	char[] inArray = str.toCharArray();
+    	ArrayList<String> ansList = new ArrayList<String>();
     	
     	for(int i=0; i<inArray.length ; i++) {
     		
