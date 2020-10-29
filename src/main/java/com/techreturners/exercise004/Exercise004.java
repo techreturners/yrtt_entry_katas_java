@@ -7,28 +7,28 @@ public class Exercise004 {
 
     public String pigLatin(String str) {
         // Add your code here
-    	String ans="", word="";
+    	String ans="", 
+	       word="";
     	char[] inArray = str.toCharArray();
     	
-    	for(int i=0; i<inArray.length ; i++) {
+	    	for(int i=0; i<inArray.length ; i++) {
     		
-    		if(Character.isLetter(inArray[i]))
-    			word += inArray[i];
-    		
-    		if((word.length()>0) &&
-    		   (!Character.isLetter(inArray[i]) || i==(inArray.length-1)) ) {
-    			
-    			word = word.substring(1) + word.charAt(0) + "ay";
-    			
-    			if (!Character.isLetter(inArray[i]))
+    			if(Character.isLetter(inArray[i]))
     				word += inArray[i];
+    		
+    			if((word.length()>0) &&
+    		   	   (!Character.isLetter(inArray[i]) || i==(inArray.length-1)) ) {
     			
-    			ans += word;
-    			word = "";
-    		}
-    	} 
+    				word = word.substring(1) + word.charAt(0) + "ay";
+    			
+    				if (!Character.isLetter(inArray[i]))
+    					word += inArray[i];
+    			
+    				ans += word;
+    				word = "";
+    			}
+    		} 
 	    
-        return ans;
-	    
+        return ans;	    
     }
 }
