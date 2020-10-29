@@ -14,23 +14,24 @@ public class Exercise001 {
         // Add your code here!
 	int[] err=arr;
         int ans=0;
-
+	boolean isDuplicate;
+	
         for (int i=0; i<arr.length ; i++) {
 
-            boolean duplicate = false;
+            isDuplicate = false;
 
             for (int j=0; j<err.length ; j++) {
 
                 if ( i!=j && arr[i]==err[j]){
 
-                    duplicate = true;
+                    isDuplicate = true;
                     break;
 
                 }
 							
             }
 
-            if (!duplicate)
+            if (!isDuplicate)
                     ans += arr[i];
         }
         return ans;
