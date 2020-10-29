@@ -47,11 +47,8 @@ public class Exercise005 {
     	 
     	ans = new String[ansList.size()];
     	
-    	for (int j=0; j<ans.length ; j++) {
-    		
+    	for (int j=0; j<ans.length ; j++)
     		ans[j] = ansList.get(j);
-    		
-    	}
     	
         return ans;
 
