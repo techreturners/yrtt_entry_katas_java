@@ -18,7 +18,7 @@ public class Exercise004 {
     		if((word.length()>0) &&
     		   (!Character.isLetter(inArray[i]) || i==(inArray.length-1)) ) {
     			
-    			word = word.substring(1) + word.CharAt(0) + "ay";
+    			word = word.substring(1) + word.charAt(0) + "ay";
     			
     			if (!Character.isLetter(inArray[i]))
     				word += inArray[i];
