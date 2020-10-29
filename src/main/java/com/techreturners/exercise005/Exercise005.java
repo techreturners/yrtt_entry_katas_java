@@ -29,12 +29,13 @@ public class Exercise005 {
 
     public String[] mexicanWave(String str) {
         // Your code here!
-    	char[] inArray = str.toCharArray();
+    	char[] inArray = str.toCharArray(), outArray;
     	ArrayList<String> ansList = new ArrayList<String>();
+        String[] ans;
     	
     	for(int i=0; i<inArray.length ; i++) {
     		
-        	char[] outArray = str.toCharArray();
+        	outArray = str.toCharArray();
 
     		if(Character.isLetter(inArray[i])) {
     			
@@ -44,7 +45,7 @@ public class Exercise005 {
     		}    					
     	}
     	 
-    	String[] ans = new String[ansList.size()];
+    	ans = new String[ansList.size()];
     	
     	for (int j=0; j<ans.length ; j++) {
     		
