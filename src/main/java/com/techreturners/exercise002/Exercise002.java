@@ -7,10 +7,8 @@ public class Exercise002 {
 
     public int past(int h, int m, int s) {
         // Your code here!
-    	int  midnight, current;
-    	
-    	midnight = 24*3600;
-    	
+    	int  midnight = 24*3600, current;
+    	    	
     	current = Math.abs(h)*3600 + Math.abs(m)*60 + Math.abs(s);
     	
     	if (current >= midnight)
