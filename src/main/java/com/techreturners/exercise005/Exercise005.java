@@ -26,7 +26,18 @@ public class Exercise005 {
     // Good luck and enjoy!
 
     public String[] mexicanWave(String str) {
-        // Your code here!
-        return new String[] {};
+        List<String> stringList = new ArrayList<String>();
+
+        for (int i = 0; i < str.length(); i++) {
+            char[] temp = str.toCharArray();
+            if (temp[i] != ' ') {
+                temp[i] = Character.toUpperCase(temp[i]);
+                stringList.add(new String(temp));
+            }
+
+        }
+
+        return (String[]) stringList.toArray();
+        
     }
 }
