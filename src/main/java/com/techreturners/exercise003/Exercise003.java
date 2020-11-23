@@ -38,6 +38,4 @@ public class Exercise003 {
         }
         return outputTuple;
         
-    }
-
 }
