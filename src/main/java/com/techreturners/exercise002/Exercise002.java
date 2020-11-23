@@ -11,6 +11,4 @@ public class Exercise002 {
         
         int secFromMidnight = (h * SEC_IN_HOUR + m * SEC_IN_MIN + s) * 1000;
         return secFromMidnight;
-        
-    }
 }
