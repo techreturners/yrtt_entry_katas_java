@@ -27,8 +27,17 @@ public class Exercise003 {
     // The first element 80 is the total weight of team 1, and the second element 0 is the total weight of team 2.
 
     public static int[] rowWeights(final int[] weights) {
-        // Your code here!
-        return new int[]{0, 0};
+        
+        int outputTuple[] = { 0, 0 };
+        for (int i = 0; i < weights.length; i++) {
+            if ((i + 1) % 2 != 0) {
+                outputTuple[0] = outputTuple[0] + weights[i];
+            } else {
+                outputTuple[1] = outputTuple[1] + weights[i];
+            }
+        }
+        return outputTuple;
+        
     }
 
 }
