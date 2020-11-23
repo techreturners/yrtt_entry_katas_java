@@ -11,7 +11,28 @@ public class Exercise001 {
     // Good luck!
 
     public int singles(int [] arr){
-        // Add your code here!
-        return 0;
+       Map<Integer, Integer> freqMap = new HashMap<Integer, Integer>();
+
+		if (arr.length == 0)
+			return -1;
+
+		for (int i = 0; i < arr.length; i++) {
+			if (freqMap.containsKey(arr[i])) {
+				int value = freqMap.get(arr[i]);
+				value = value + 1;
+				freqMap.put(arr[i], value);
+			} else {
+				freqMap.put(arr[i], 1);
+			}
+		}
+		int sum = 0;
+		for (Entry<Integer, Integer> entry : freqMap.entrySet()) {
+			if (entry.getValue() == 1) {
+				sum = sum + entry.getKey();
+			}
+		}
+
+		return sum;
+        
     }
 }
